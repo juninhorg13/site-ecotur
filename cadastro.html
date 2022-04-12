@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRABALHE CONOSCO</title>
+
+    <link rel="stylesheet" href="style-cadastro.css">
+
+</head>
+
+<body>
+
+
+
+    <div>
+        <div>
+            <header id="titulo-topo">
+                <img src="imagens/logo-ecotur.png" alt="Logo Ecotur" width="200px">
+            </header>
+        </div>
+
+
+        <div id="subtitulo-slogan">
+            <header>
+                <h4>TURISMO ECOLÓGICO</h4>
+            </header>
+        </div>
+    </div>
+    <div>
+        <nav id="menu-principal">
+
+            <ul>
+                <li id="option">
+                    <a href="index.html">HOME PAGE</a>
+                </li>
+                <li id="option">
+                    <a href="quemsomos.html">QUEM SOMOS</a>
+                </li>
+                <li id="option">
+                    <a href="#">O QUE FAZEMOS?</a>
+                </li>
+                <li id="option">
+                    <a href="passeios.html">PASSEIOS</a>
+                </li>
+                <li id="option">
+                    <a href="contatos.html">CONTATOS</a>
+                </li>
+                <li id="option">
+                    <a href="cadastro.html">TRABALHE CONOSCO</a>
+                </li>
+            </ul>
+
+        </nav>
+    </div>
+
+
+    <br>
+    <div>
+        <h1 id="titulo-conteudo">FAÇA PARTE DO NOSSO TIME DE DESENVOLVEDORES WEB</h1>
+        <p id="titulo-conteudo">Preencha seus dados abaixo</p>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <!--cria uma caixa no site-->
+            <div class="campo">
+                <label>Nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <div class="campo">
+                <label>Sobrenome</label>
+                <!--Título do campo-->
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+
+            <div class="campo">
+                <label>E-mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <br>
+
+            <div class="campo">
+                <label>De qual lado lado da aplicação você desenvolve?</label>
+                <br>
+                <label>
+                    <input type="radio" name="devweb" value="Front-end" checked>Front-end
+                </label>
+            </div>
+
+            <div class="campo">
+                <label>
+                    <input type="radio" name="devweb" value="Back-end">Front-end
+                </label>
+            </div>
+
+            <div class="campo">
+                <label>
+                    <input type="radio" name="devweb" value="Full-stack">Full-stack
+                </label>
+            </div>
+            <br>
+            <div class="campo">
+                <label>Senioridade</label>
+                <select id="senioridade">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Junior</option>
+                    <option>Pleno</option>
+                    <option>Senior</option>
+                </select>
+            </div>
+            <br>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label>Quais tecnologias você conhece?</label>
+                    <input type="checkbox" name="tecnologia1" id="tecnologia1" value="HTML">
+                    <label>HTML</label>
+
+                    <input type="checkbox" name="tecnologia" id="tecnologia" value="Javascript">
+                    <label for="tecnologia1">Javascript</label>
+
+                    <input type="checkbox" name="tecnologia2" id="tecnologia2" value="CSS">
+                    <label for="tecnologia2">CSS</label>
+
+                    <input type="checkbox" name="tecnologia3" id="tecnologia3" value="PHP">
+                    <label for="tecnologia3">PHP</label>
+                </div>
+            </fieldset>
+            <br>
+            <div class="campo">
+                <label>Conte um pouco da sua experiência</label>
+                <br>
+                <textarea id="caixa-texto"></textarea>
+            </div>
+
+            <button type="submit">Enviar dados</button>
+
+        </fieldset>
+    </form>
+
+    </fieldset>
+    <br>
+    <br>
+    <div>
+        <fieldset>
+            <header>
+                <h2>
+                    Seção de links úteis
+                </h2>
+                <ul>
+                    <li>
+                        <a href="https://prefeitura.rio" rel="next" target="_self">Site da Prefeitura da Cidade do Rio de Janeiro</a>
+                        <br>
+                    </li>
+                    <li>
+                        <a href="http://www.rio.rj.gov.br/web/riotur/conheca-a-secretaria" rel="next" target="_self">Site da Secretaria Municipal de Turismo da Cidade do Rio</a>
+                        <br>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/ecotur_official" rel="next" target="_self">Instagram @ecotur_official</a>
+                    </li>
+                </ul>
+            </header>
+
+        </fieldset>
+    </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div>
+        <fieldset>
+            <header id="downloads">
+                <h2>Seção de downloads de arquivos</h2>
+            </header>
+            <ul>
+                <li>
+                    <a href="arquivos-texto/Lorem ipsum.pdf" download="Lorem ipsum.pdf">Clique aqui para baixar nosso tutorial em formato PDF</a>
+                </li>
+                <li>
+                    <a href="arquivos-texto/Lorem ipsum.docx" download="Lorem ipsum.docx">Clique aqui para baixar nosso tutorial em formato Word</a>
+                </li>
+                <li>
+                    <a href="imagens/panoramicario.jpg" download="panoramicario.jpg">Clique aqui para baixar o poster da cidade do Rio</a>
+                </li>
+            </ul>
+        </fieldset>
+
+    </div>
+
+    <br>
+
+    <footer id="rodape">
+        <fieldset>
+            <p>Avenida Dom Helder Camara, 5000, Rio de Janeiro - RJ</p>
+            <p>Developed by: @juninhos.of. Todos os direitos reservados ©</p>
+        </fieldset>
+    </footer>
+
+
+</body>
+
+</html>
